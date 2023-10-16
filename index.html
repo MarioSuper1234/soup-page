@@ -1,0 +1,98 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width">
+        <style>
+            p {
+                font-size: 20px
+            }
+        </style>
+        <script>
+            var audio = new Audio('data/cantaloupe.ogg');
+        </script>
+        <style>
+            #snow{
+                background: none;
+                font-family: Androgyne;
+                background-image: url('data/rat.gif'), url('data/rat.gif'), url('data/troleador.png');
+                height: 100%;
+                left: 0;
+                position: absolute;
+                top: 1235;
+                width: 100%;
+                z-index:1;
+                -webkit-animation: snow 1000s linear infinite;
+                -moz-animation: snow 1000s linear infinite;
+                -ms-animation: snow 1000s linear infinite;
+                animation: snow 1000s linear infinite;
+                -webkit-transform: translate3d(0,0,0);
+                -moz-transform: translate3d(0,0,0);
+                -ms-transform: translate3d(0,0,0);
+                -o-transform: translate3d(0,0,0);
+                transform: translate3d(0,0,0);
+            }
+            @keyframes snow {
+              0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+              100% {background-position: 50000px 50000px, 10000px 20000px, -10000px 15000px;}          
+            }
+            @-moz-keyframes snow {
+              0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+              100% {background-position: 50000px 50000px, 10000px 20000px, -10000px 15000px;}          
+            }
+            @-webkit-keyframes snow {
+              0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+              100% {background-position: 50000px 50000px, 10000px 20000px, -10000px 15000px;}          
+            }
+            @-ms-keyframes snow {
+              0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+              100% {background-position: 50000px 50000px, 10000px 20000px, -10000px 15000px;}          
+            }   
+        </style>
+        <style>
+            del {
+                text-decoration: none;
+                position: relative;
+            }
+            del:after {
+                content: ' ';
+                font-size: inherit;
+                display: block;
+                position: absolute;
+                right: 0;
+                left: 0;
+                top: 40%;
+                bottom: 40%;
+                border-top: 1px solid #000;
+                border-bottom: 1px solid #000;
+            }
+        </style>
+        <title>soup site</title>
+    </head>
+    <body onload="foo.bar();" style="font-family:'Comic Sans MS';background-color: rgb(252, 221, 181);">
+        <audio controls autoplay="true" loop><source src="Meek.mp3" type="audio/mp3"></audio>
+        this is the background music (i tried too much to make it autostart)
+        <div align="middle">
+            <h1>soup man website</h1>
+        </div>
+        <hr>
+        <p>i do random stuff on the intornet and annoy people</p>
+        <p><img src="data/hello.gif"><div align="right"><img src="data/rat.gif"></div></p>
+        <div align="middle">
+            <p>
+                me also have social medias
+            </p>
+            <a href="https://youtube.com/@soupman9814">
+                <button style="font-size:30px;font-family:'Comic Sans MS'">ㅤㅤㅤㅤㅤyoutupㅤㅤㅤㅤㅤ</button>
+            </a>
+            <a href="https://twitter.com/MSuper1234">
+                <button style="font-size:30px;font-family:'Comic Sans MS'">ㅤㅤㅤㅤㅤtwitterㅤㅤㅤㅤㅤ</button>
+            </a>
+            <br>
+            <a onclick="audio.play();">
+                <img src="data/cantaloupe.png">
+            </a>
+        </div>
+        <div id="snow">
+        </div>
+        the ratsㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤcode <del>stolen</del> borowed from <a href="https://corndog.io">corndog.io</a>
+    </body>
+</html>
